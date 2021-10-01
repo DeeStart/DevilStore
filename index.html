@@ -9,6 +9,8 @@
   <link rel="icon" href="./assets/image/hlwbag.png" type="image/gif" sizes="16x16" />
   <!-- fontawasome -->
   <link rel="stylesheet" href="./assets/font/fontawesome-pro-5.12.0-web/css/all.min.css" />
+  <!-- AOS Scroll Lirbary -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- Cdn Swiper -->
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
   <!-- Css custome -->
@@ -84,7 +86,7 @@
   <section class="products" id="products">
     <h1 class="heading">Our <span> Products</span></h1>
 
-    <div class="swiper products-slider">
+    <div class="swiper products-slider" data-aos="zoom-in">
       <div class="swiper-wrapper">
         <div class="swiper-slide box">
           <div class="icons">
@@ -167,7 +169,7 @@
 
   <!-- About section start -->
   <section class="about" id="about">
-    <div class="content">
+    <div class="content" data-aos="fade-right">
       <h3>About Us</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur
@@ -184,7 +186,7 @@
   <section class="arrivals" id="arrival">
     <h1 class="heading">New <span>Arrivals</span></h1>
     <div class="box-container">
-      <div class="box">
+      <div class="box" data-aos="fade-right">
         <div class="icons">
           <a href="#" class="fad fa-shopping-cart"></a>
           <a href="#" class="fad fa-eye"></a>
@@ -199,7 +201,7 @@
         </div>
       </div>
 
-      <div class="box">
+      <div class="box" data-aos="fade-down">
         <div class="icons">
           <a href="#" class="fad fa-shopping-cart"></a>
           <a href="#" class="fad fa-eye"></a>
@@ -214,7 +216,7 @@
         </div>
       </div>
 
-      <div class="box">
+      <div class="box" data-aos="fade-left">
         <div class="icons">
           <a href="#" class="fad fa-shopping-cart"></a>
           <a href="#" class="fad fa-eye"></a>
@@ -229,7 +231,7 @@
         </div>
       </div>
 
-      <div class="box">
+      <div class="box" data-aos="fade-right">
         <div class="icons">
           <a href="#" class="fad fa-shopping-cart"></a>
           <a href="#" class="fad fa-eye"></a>
@@ -244,7 +246,7 @@
         </div>
       </div>
 
-      <div class="box">
+      <div class="box" data-aos="fade-down">
         <div class="icons">
           <a href="#" class="fad fa-shopping-cart"></a>
           <a href="#" class="fad fa-eye"></a>
@@ -259,7 +261,7 @@
         </div>
       </div>
 
-      <div class="box">
+      <div class="box" data-aos="fade-left">
         <div class="icons">
           <a href="#" class="fad fa-shopping-cart"></a>
           <a href="#" class="fad fa-eye"></a>
@@ -286,12 +288,12 @@
         allowfullscreen="" loading="lazy">
       </iframe>
       <form action="">
-        <h3>Tell Us Something</h3>
-        <input type="text" placeholder="Enter your name" class="box" />
-        <input type="email" placeholder="Enter your email" class="box" />
-        <input type="tel" placeholder="Your number phone" name="" pattern="[0-9]{10}" class="box" />
-        <textarea name="" placeholder="Your message" class="box" cols="30" rows="10"></textarea>
-        <input type="submit" value="Send Message" class="btn" />
+        <h3 data-aos="zoom-in">Tell Us Something</h3>
+        <input data-aos="zoom-in" type="text" placeholder="Enter your name" class="box" />
+        <input data-aos="zoom-in" type="email" placeholder="Enter your email" class="box" />
+        <input data-aos="zoom-in" type="tel" placeholder="Your number phone" name="" pattern="[0-9]{10}" class="box" />
+        <textarea data-aos="zoom-in" name="" placeholder="Your message" class="box" cols="30" rows="10"></textarea>
+        <input data-aos="zoom-in" type="submit" value="Send Message" class="btn" />
       </form>
     </div>
   </section>
@@ -302,7 +304,7 @@
     <h1 class="heading">Our <span>Blog</span></h1>
     <div class="swiper box-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide box">
+        <div class="swiper-slide box" data-aos="fade-right">
           <div class="image">
             <img src="./assets/image/blog-1.jpg" alt="" />
           </div>
@@ -321,7 +323,7 @@
             </div>
           </div>
         </div>
-        <div class="swiper-slide box">
+        <div class="swiper-slide box" data-aos="fade-down">
           <div class="image">
             <img src="./assets/image/blog-2.jpg" alt="" />
           </div>
@@ -341,7 +343,7 @@
           </div>
         </div>
 
-        <div class="swiper-slide box">
+        <div class="swiper-slide box" data-aos="fade-left">
           <div class="image">
             <img src="./assets/image/blog-3.jpg" alt="" />
           </div>
@@ -368,7 +370,7 @@
   <!-- Footer Section Start -->
   <section class="footer">
     <div class="footer-container">
-      <div class="box">
+      <div class="box" data-aos="fade-right">
         <h3>Our Branches</h3>
         <a href=""><i class="fad fa-map-marked-alt"></i>India</a>
         <a href=""><i class="fad fa-map-marked-alt"></i>ThaiLand</a>
@@ -377,7 +379,7 @@
         <a href=""><i class="fad fa-map-marked-alt"></i>China</a>
       </div>
 
-      <div class="box">
+      <div class="box" data-aos="fade-down">
         <h3>Quick Links</h3>
         <a href=""><i class="fad fa-arrow-right"></i>Home</a>
         <a href=""><i class="fad fa-arrow-right"></i>About</a>
@@ -386,7 +388,7 @@
         <a href=""><i class="fad fa-arrow-right"></i>Blog</a>
       </div>
 
-      <div class="box">
+      <div class="box" data-aos="fade-up">
         <h3>Contact Us</h3>
         <a href=""><i class="fad fa-phone-alt"></i>+123-456-789</a>
         <a href=""><i class="fad fa-fax"></i>+111-222-333</a>
@@ -395,7 +397,7 @@
           Tho</a>
       </div>
 
-      <div class="box">
+      <div class="box" data-aos="fade-left">
         <h3>Social</h3>
         <a href=""><i class="fab fa-facebook-f"></i>Devil Store</a>
         <a href=""><i class="fab fa-flickr"></i>Devil-Art</a>
@@ -408,6 +410,14 @@
       Create by &copy; <span>Du Pham</span> | all right reserved
     </div>
   </section>
+  <!-- AOS Scroll Script -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      delay: 400,
+      duration: 800
+    });
+  </script>
   <!-- Script Swiper -->
   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
   <!-- Script Custome -->
