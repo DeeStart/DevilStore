@@ -87,7 +87,7 @@ var swiper = new Swiper(".products-slider", {
   },
 });
 
-var swiper = new Swiper(".box-container", {
+var swiper = new Swiper(".blog-slider", {
   spaceBetween: 20,
   autoplay: {
     delay: 3500,
